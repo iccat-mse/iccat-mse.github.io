@@ -1,50 +1,27 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en-us">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="RFMO MSE : Links to MSE &amp; Fisheries tools">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>RFMO MSE</title>
+    <meta charset="UTF-8">
+    <title>ICCAT MSE by iccat-mse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
-
   <body>
+    <section class="page-header">
+      <h1 class="project-name">ICCAT MSE</h1>
+      <h2 class="project-tagline">Operating Models and Implicit Management Procedures based on ICCAT stock assessments</h2>
+    </section>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/iccat-mse">View on GitHub</a>
-
-          <h1 id="project_title">RFMO MSE</h1>
-          <h2 id="project_tagline">Links to MSE &amp; Fisheries tools</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>ICCAT MSE</p>
+    <section class="main-content">
+      <p>ICCAT MSE</p>
 
 <p>This site hosts work on some of the MSE using R being conducted by the SCRS</p>
 
 <h1>
-<a id="applications" class="anchor" href="#applications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Applications</h1>
-
-<ul>
-<li> North Atlantic Albacore <a href="http://iccat-mse.github.io/albn-om.html">http://iccat-mse.github.io/albn-om.html</a>
-</li>
-<li> Mediterannean Albacore <a href="http://iccat-mse.github.io/albm-om.html">http://iccat-mse.github.io/albm-om.html</a>
-</li>
-</ul>
-
-<h1>
-<a id="steps" class="anchor" href="#steps" aria-hidden="true"><span class="octicon octicon-link"></span></a>Steps</h1>
-
-<p>MSE involves a number of steps</p>
+<a id="mse-involves-a-number-of-steps" class="anchor" href="#mse-involves-a-number-of-steps" aria-hidden="true"><span class="octicon octicon-link"></span></a>MSE involves a number of steps</h1>
 
 <ul>
 <li>Identification of management objectives and mapping these into utility functions or statistical indicators of performance;</li>
@@ -54,17 +31,40 @@
 <li>Projecting the OMs forward in time using the MPs as a feedback controller, simulating the impact of management \citep{ramaprasad1983definition}; and</li>
 <li>identifying the elements of MPs that best meet management objectives.</li>
 </ul>
-      </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+<h2>
+<a id="operating-models" class="anchor" href="#operating-models" aria-hidden="true"><span class="octicon octicon-link"></span></a>Operating Models</h2>
+
+<p>There are various ways of developing OMs and the amount of knowledge, data requirements and complexity differs quite markedly depending on the type to be used. Basing an operating model on the current assessment model has arguably the lowest demands for knowledge and data. Although use of the assessment model as the operating model seems to imply that assessment models describe nature almost perfectly, if an MP cannot perform well when reality is as simple as implied by an assessment model, it is unlikely to perform adequately for more realistic representations of uncertainty. </p>
+
+<p>Therefore in the development of MSE within ICCAT the 1st stage is to take the existing assessments as the OMs</p>
+
+<h1>
+<a id="applications" class="anchor" href="#applications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Applications</h1>
+
+<h2>
+<a id="north-atlantic-albacore" class="anchor" href="#north-atlantic-albacore" aria-hidden="true"><span class="octicon octicon-link"></span></a>North Atlantic Albacore</h2>
+
+<p>An Operating Model has been developed based on Multifan-CL <a href="http://iccat-mse.github.io/albn-om.html">http://iccat-mse.github.io/albn-om.html</a>
+ There is already an implicit Management Procedure (MP) based on a biomass dynamic model and a hockey stick Harvest Control Rule which will be simulation tested using MSE. The stock assessment has been evaluated using the OM to simulate psuedo-data see <a href="http://iccat-mse.github.io/albn-sa.html">http://iccat-mse.github.io/albn-sa.html</a> </p>
+
+<h2>
+<a id="mediterranean-albacore" class="anchor" href="#mediterranean-albacore" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mediterranean Albacore</h2>
+
+<h2>
+<a id="mediterranean-swordfish" class="anchor" href="#mediterranean-swordfish" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mediterranean Swordfish</h2>
+
+<h2>
+<a id="mediterannean-bluefin" class="anchor" href="#mediterannean-bluefin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mediterannean Bluefin</h2>
+
+      <footer class="site-footer">
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
-    </div>
 
-    
+    </section>
 
+  
   </body>
 </html>
+
